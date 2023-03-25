@@ -1,0 +1,99 @@
+/*importing fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap');
+
+/*initialize properties for all the elements */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Alkatra', cursive;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
+
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    background-color:#d9e6eecc;
+    backdrop-filter: blur(100px);
+    padding: 20px 40px;
+    border-radius: 18px;
+    /* we are making it vertically allign to centre */
+    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* giving a shadow effect */ 
+    box-shadow: 4px 4px 10px black;
+
+}
+.signup-header h1{
+    font-size: 3 rem;
+    color:#2E2E2E;
+    text-align: center;
+  
+}
+.signup-header p {
+    font-size: 1 rem;
+    color:#1c1717;
+    text-align: center;
+}
+.signup-body p {
+    margin: 5px 0px;
+}
+.signup-body p label {
+    display: block;
+    block-size: 2px;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #533c3ccc; 
+    border-radius: 4px;
+    font-size: 1 rem;
+    margin-top: 8px;
+}
+.signup-body p input[type="submit"] {
+    background-color: #a5931b;
+    border: 2px;
+    color: white;
+    cursor: pointer;    
+}
+
+
+/* creating the hoverring effect*/
+.signup-body p input[type="submit"]:hover {
+    color:#1b51b6;
+    text-align: center;
+}
+.signup-footer p a{
+    color: #f14c0b;
+}    
+
+
+/* styling the circles*/
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33,#ffffff);
+    position: absolute;
+}
+.c1 {
+    top: 100px;
+    left: 40px;
+}
+.c2 {
+    bottom: 200px;
+    right: 50px;
+}

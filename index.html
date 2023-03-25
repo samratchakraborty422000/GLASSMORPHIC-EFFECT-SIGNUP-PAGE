@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--creating the signup box-->
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Sign up</h1>
+                <p>It just takes 30 seconds</p>   
+                </header>
+                <main class="signup-body">             
+                    <form action="#">              <!--creating empty action form-->
+                    <p>
+                        <label for="fullname">Full Name</label> <br>
+                        <input type="text" id="fullname" placeholder="Samrat Chakraborty" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="samratchakraborty@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" placeholder="At least 8 characters" required>
+                    </p>
+                 
+                    <p>What is your gender?</p>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="non-binary"> Non Binary
+                    <p>
+                        <b><input type="submit" id="submit" value="Create Account"></b>
+                    </p>
+                    </form>    
+                </main>
+
+                <footer clss="signup-footer">
+                    <p>Already have an Account? <a href="#">Login</a></p>
+
+                </footer>
+        </div>
+
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+
+    </div>
+    
+</body>
+</html>
