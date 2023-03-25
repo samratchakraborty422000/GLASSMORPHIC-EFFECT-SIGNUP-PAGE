@@ -24,6 +24,8 @@ body{
     width: 400px;
     margin: 0 auto;
     background-color:#d9e6eecc;
+    /* Adding the blurring effect*/
+    
     backdrop-filter: blur(100px);
     padding: 20px 40px;
     border-radius: 18px;
